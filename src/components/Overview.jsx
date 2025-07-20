@@ -22,6 +22,7 @@ function Overview({ goals }) {
           return (
             <div key={goal.id}>
               <p>{goal.name} - Deadline: {goal.deadline}</p>
+              <p>Time left: {daysLeft >= 0 ? `${daysLeft} day(s) left` : 'Deadline passed'}</p>
               {overdue && <p style={{ color: "red" }}>Overdue</p>}
               {warning && <p style={{ color: "orange" }}>Deadline within 30 days!</p>}
             </div>

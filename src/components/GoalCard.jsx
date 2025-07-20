@@ -29,11 +29,9 @@ function GoalCard({ goal, setGoals }) {
 
       {/* Progress bar */}
       <div className="progress-bar-container">
-        <div
-          className="progress-bar"
-          style={{ width: `${progressPercent}%` }}
-        >
-          {progressPercent}%
+        <div 
+        className="progress-bar"
+        style={{ width: `${(goal.savedAmount / goal.targetAmount) * 100}%` }}>
         </div>
       </div>
 

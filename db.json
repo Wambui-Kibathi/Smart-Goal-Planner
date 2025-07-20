@@ -33,7 +33,7 @@
       "targetAmount": 800,
       "savedAmount": 600,
       "category": "Vehicle",
-      "deadline": "2026-09-15",
+      "deadline": "2025-08-15",  
       "createdAt": "2025-06-01"
     },
     {
@@ -51,8 +51,8 @@
       "targetAmount": 1000,
       "savedAmount": 200,
       "category": "Shopping",
-      "deadline": "2026-08-10",
+      "deadline": "2025-07-10", 
       "createdAt": "2025-07-01"
-    }
+    } 
   ]
 }
