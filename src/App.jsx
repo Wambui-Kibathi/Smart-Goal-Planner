@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import GoalList from './components/GoalList';
 import AddGoalForm from './components/AddGoalForm';
 import EditGoalForm from './components/EditGoalForm';
