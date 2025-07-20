@@ -49,7 +49,7 @@ function DepositForm({ goals, setGoals }) {
       </label>
 
       <button type="submit">Add Deposit</button>
-      <NavLink to="/">Cancel</NavLink>
+      <NavLink to="/" className="cancel-button">Cancel</NavLink>
     </form>
   );
 }

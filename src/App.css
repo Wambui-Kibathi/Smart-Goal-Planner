@@ -2,29 +2,29 @@
 
 /* NavBar styling */
 .navbar {
-  width: 100%;
-  background-color: #007bff; /* blue NavBar */
-  padding: 1rem 0;
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff; /* blue navbar */
+  padding: 10px 20px;
 }
 
-.navbar a {
-  color: white;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  transition: background 0.3s ease, color 0.3s ease;
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white; /* white text for logo */
+  text-decoration: none;
 }
 
-.navbar a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white; /* white text for nav links */
 }
 
-.navbar a.active {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: white;
+.nav-links a.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
 }
 
 /* Title card container */
@@ -117,6 +117,24 @@ button:hover {
   background: #007bff;
 }
 
+.cancel-button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.cancel-button:hover {
+  background-color: darkorange;
+}
+
 /* Form styling */
 form {
   background: white;
@@ -140,4 +158,26 @@ form select {
 
 form label {
   font-weight: 500;
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.overview-card,
+.deadlines-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.overview-card h2,
+.deadlines-card h3 {
+  text-align: center;
+  color: #333;
 }

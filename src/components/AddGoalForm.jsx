@@ -1,6 +1,6 @@
 import { useState} from 'react';
 
-function AddGoalForm() {
+function AddGoalForm({ goals, setGoals}) {
     const [name, setName] = useState("");
     const [targetAmount, setTargetAmount] = useState("");
     const [category, setCategory] = useState("");
@@ -27,7 +27,7 @@ function AddGoalForm() {
         })
         .then((res) => res.json())
         .then((data) => {
-            setGoals([...GoalList, data]);
+            setGoals([...goals, data]);
             // Reset form fields
             setName("");
             setTargetAmount("");

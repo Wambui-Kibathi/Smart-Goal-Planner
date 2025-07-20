@@ -94,7 +94,7 @@ function EditGoalForm({ goals, setGoals }) {
       </label>
 
       <button type="submit">Update Goal</button>
-      <NavLink to="/">Cancel</NavLink>
+      <NavLink to="/" className="cancel-button">Cancel</NavLink>
     </form>
   );
 }
