@@ -1,25 +1,22 @@
-/* App.css */
-
-/* NavBar styling */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #007bff; /* blue navbar */
+  background-color: #007bff; 
   padding: 10px 20px;
 }
 
 .logo {
   font-size: 20px;
   font-weight: bold;
-  color: white; /* white text for logo */
+  color: white;
   text-decoration: none;
 }
 
 .nav-links a {
   margin: 0 10px;
   text-decoration: none;
-  color: white; /* white text for nav links */
+  color: white; 
 }
 
 .nav-links a.active {
@@ -27,7 +24,6 @@
   border-bottom: 2px solid white;
 }
 
-/* Title card container */
 .title-card {
   background-color: white;
   padding: 1rem 0;
@@ -37,18 +33,16 @@
   text-align: center;
 }
 
-/* Page title text */
 .page-title {
-  color: #007bff; /* blue title */
+  color: #007bff; 
   font-size: 2rem;
   font-weight: 600;
 }
 
-/* Main content container */
 .main-content {
   max-width: 1200px;
   margin: 2rem auto;
-  background-color: #e0e0e0; /* light grey container background */
+  background-color: #e0e0e0; 
   padding: 2rem;
   border-radius: 12px;
 }
